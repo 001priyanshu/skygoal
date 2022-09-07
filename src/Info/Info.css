@@ -1,0 +1,44 @@
+.color-red {
+    color: red;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    justify-items: center;
+    gap: 10vmax;
+    justify-content: center;
+    padding: 2vmax;
+}
+
+@media (max-width:1350px) {
+    .info-container {
+        gap: 10vmax;
+    }
+}
+@media (max-width:600px) {
+    .info-container {
+        gap: 5vmax;
+    }
+}
+
+
+
+.button-border-red {
+    /* border: 2px solid black; */
+    border-radius: 4%;
+    background-color: red;
+    color: white;
+    padding: .3rem;
+    cursor: pointer;
+
+}
+
+.info-image {
+    background-image: url("../Images/pana.svg");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

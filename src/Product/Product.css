@@ -1,0 +1,23 @@
+    .image-profile {
+        height: 200px;
+        width: 200px;
+        background-size: cover;
+    }
+
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 17rem);
+        gap: 5vmax;
+        justify-items: center;
+        justify-content: center;
+
+    }
+
+    .heading-center {
+        text-align: center;
+        padding: 1vmax;
+    }
+
+    .color-red {
+        color: red;
+    }

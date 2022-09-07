@@ -1,0 +1,48 @@
+.welcome-container{
+   
+    background-color: rgb(245, 245, 236);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,30rem);
+    justify-items: center;
+    gap:10vmax;
+    justify-content: center;
+    padding: 2vmax;
+}
+@media (max-width:1350px) {
+    body{
+        margin: 0;
+    }
+    .welcome-container {
+        gap: 10vmax;
+    }
+    .welcome-image{
+        height: 100px;
+        width: 100px;
+        /* border: 2px solid black; */
+    }
+    
+
+}
+@media (max-width:600px) {
+    
+    .welcome-content{
+        width: 400px;
+        height: auto;
+        /* border: 2px solid black; */
+    }
+.welcome-container{
+    gap:5vmax;
+}
+}
+
+.welcome-image {
+    background-image: url("../Images/pana-1.svg");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    margin-top: -40px;
+    /* padding-bottom: 20px; */
+    /* border: 2px solid black; */
+}
