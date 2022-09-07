@@ -14,15 +14,18 @@ const Navbar = () => {
   return (
     <div className="navbox">
 
-<button id="open" onClick={handleClick} >click</button>
+<button id="open" onClick={handleClick} ><i class="fa fa-bars"></i></button>
  
     <div className='display' id="dis" >
-        <li className="items">Items</li>
-        <li className="items">Items</li>
-        <li className="items">Items</li>
-        <li className="items">Items</li>
-        <li className="items">Items</li>
-        <button id="close" onClick={close} >Cross</button>
+        <li className="items">Services</li>
+        <li className="items">Product</li>
+        <li className="items">Technology</li>
+        <li className="items">About</li>
+        <li className="items">Client</li>
+        <li className="items">Partner</li>
+        
+        <button id="close" onClick={close} ><i class="fa-sharp fa-solid fa-xmark"></i></button>
+        
     </div>
       
     
